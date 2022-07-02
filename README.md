@@ -18,18 +18,12 @@ This Streamlit app renders an image grid and provides some controls to sort and 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://asehmi-st-media-service-client-app-01b2hx.streamlitapp.com/)
 
-## Installation
-
-```bash
-$ cd st-media-service
-$ pip install -r requirements.txt
-```
-
 ## Usage
 
-Run the included app to see how the Streamlit media service works:
-
 ```bash
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
 $ streamlit run client_app.py
 ```
 
